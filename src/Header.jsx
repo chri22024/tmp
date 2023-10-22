@@ -1,4 +1,4 @@
-import doveLogo from './imags/dove.png';
+
 export default function Header() {
     return (
         <section>
@@ -7,13 +7,10 @@ export default function Header() {
                 
 
                 <h1>Birdwatching</h1>
-                <img src={doveLogo} alt="a simple dove logo"></img>
+                <img src="imags/dove.png" alt="a simple dove logo"></img>
     
             
             </header>
         </section>
     );
-
-
-
 }
